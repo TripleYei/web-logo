@@ -1,0 +1,71 @@
+
+		body{
+			margin: 0;
+		}
+		header{
+			background-color: #c1db00;
+			color:white;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			
+		}
+		header ul{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			font-size: 2em;
+
+			}
+		header li{
+			
+			
+			list-style-type: none;
+			margin:15px;
+		}
+
+		header a{
+			text-decoration: none;
+		}
+		header a:hover{
+			background-color:green;
+			color:white;
+			padding: 25px;
+		}
+		
+		#text{
+			font-size: 2em;
+			background-color: #e0ff00;
+			color:black;
+			
+		}
+
+		#foto{
+			background-image: url("https://picsum.photos/200/300");
+			background-position: center;
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			padding: 250px;
+		}
+
+		footer{
+			padding: 100px;
+			background-color:#c1db00;
+			color:white;
+			font-size: 1em;
+			text-align: center;
+
+		}
+		@media screen and (max-width: 500px){
+
+			header ul{
+				flex-direction: column;
+			}
+			header{
+				flex-direction: column;
+			}
+			#foto{
+				padding: 200px;
+			}
+		}
+	
